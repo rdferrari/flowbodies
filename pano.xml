@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+  <panorama id="node1">
+    <input height="3939" leveltileurl="tiles/0-GoldenGate-tratada-III/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelingroll="0" levelbiashidpi="0.400" width="3939" levelbias="0.400" levelingpitch="0">
+      <level predecode="0" height="3939" width="3939" preload="0"/>
+      <level predecode="0" height="1969" width="1969" preload="0"/>
+      <level predecode="0" height="984" width="984" preload="0"/>
+      <level predecode="1" height="492" width="492" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="22"/>
+      <min tilt="-14.7117" fov="120" pan="-180"/>
+      <max tilt="14.7117" fov="120" pan="180"/>
+    </view>
+    <userdata datetime="" author="" longitude="" title="" source="" comment="" copyright="" tags="" description="" info="" latitude=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" borderradius="1" height="20" bordercolor="0x000000" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderalpha="1" enabled="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1"/>
+      <hotspot tilt="2.28" skinid="logo+tag" title="" url="" target="_blank" pan="22.3" description="" id="Point01"/>
+      <hotspot tilt="-0.98" skinid="play-intro" title="" url="" target="_blank" pan="22.28" description="" id="Point02"/>
+      <hotspot tilt="3.78" skinid="interaction-head-lands" title="" url="" target="_blank" pan="-19.28" description="" id="Point03"/>
+      <hotspot tilt="0.06" skinid="interaction-golden-gate" title="" url="" target="_blank" pan="-52.36" description="" id="Point04"/>
+      <hotspot tilt="5.65" skinid="interaction-yosemite" title="" url="" target="_blank" pan="-167.94" description="" id="Point05"/>
+      <hotspot tilt="0.88" skinid="interaction-slack" title="" url="" target="_blank" pan="79.35" description="" id="Point06"/>
+      <hotspot tilt="3.8" skinid="interaction-mission-cliffs" title="" url="" target="_blank" pan="-151.13" description="" id="Point07"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomfov="20" zoomin="0" softedge="0" type="crossdissolve" zoomout="0" enabled="1" zoomoutpause="1"/>
+    <control sensitivity="8" simulatemass="1" contextfullscreen="0" lockedkeyboard="0" lockedmouse="0" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input height="3993" leveltileurl="tiles/1-Yosemite-TiogaPass-II/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelingroll="0" levelbiashidpi="0.400" width="3993" levelbias="0.400" levelingpitch="0">
+      <level predecode="0" height="3993" width="3993" preload="0"/>
+      <level predecode="0" height="1996" width="1996" preload="0"/>
+      <level predecode="0" height="998" width="998" preload="0"/>
+      <level predecode="1" height="499" width="499" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="-23"/>
+      <min tilt="-23.2283" fov="120" pan="-180"/>
+      <max tilt="23.2283" fov="120" pan="180"/>
+    </view>
+    <userdata datetime="2016:09:20 16:18:01" author="" longitude="-119.281077" title="" source="" comment="" copyright="" tags="" description="" info="" latitude="37.878093"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" borderradius="1" height="20" bordercolor="0x000000" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderalpha="1" enabled="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1"/>
+      <hotspot tilt="-7.63" skinid="interaction-tioga-road" title="" url="" target="_blank" pan="-16.71" description="" id="Point01"/>
+      <hotspot tilt="-1.44" skinid="interaction-tuolumne" title="" url="" target="_blank" pan="-23.48" description="" id="Point02"/>
+      <hotspot tilt="7.54" skinid="interaction-camp" title="" url="" target="_blank" pan="134.83" description="" id="Point03"/>
+      <hotspot tilt="5.19" skinid="interaction-video-yosemite" title="" url="" target="_blank" pan="22.52" description="" id="Point04"/>
+      <hotspot tilt="12.06" skinid="interaction-death" title="" url="" target="_blank" pan="65.78" description="" id="Point05"/>
+      <hotspot tilt="9.11" skinid="interaction-video-elCap" title="" url="" target="_blank" pan="43.41" description="" id="Point07"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomfov="20" zoomin="0" softedge="0" type="crossdissolve" zoomout="0" enabled="1" zoomoutpause="1"/>
+    <control sensitivity="8" simulatemass="1" contextfullscreen="0" lockedkeyboard="0" lockedmouse="0" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input height="4001" leveltileurl="tiles/9-DeathValley-II/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelingroll="0" levelbiashidpi="0.400" width="4001" levelbias="0.400" levelingpitch="0">
+      <level predecode="0" height="4001" width="4001" preload="0"/>
+      <level predecode="0" height="2000" width="2000" preload="0"/>
+      <level predecode="0" height="1000" width="1000" preload="0"/>
+      <level predecode="1" height="500" width="500" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="-7"/>
+      <min tilt="-23.4106" fov="5" pan="-180"/>
+      <max tilt="23.4106" fov="120" pan="180"/>
+    </view>
+    <userdata datetime="2016:09:23 07:59:17" author="" longitude="-116.812180" title="" source="" comment="" copyright="" tags="" description="" info="" latitude="36.420513"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" borderradius="1" height="20" bordercolor="0x000000" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderalpha="1" enabled="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1"/>
+      <hotspot tilt="0.32" skinid="interaction-zabriski" title="" url="" target="_blank" pan="-6.76" description="" id="Point01"/>
+      <hotspot tilt="0.34" skinid="interaction-video-death" title="" url="" target="_blank" pan="15.88" description="" id="Point02"/>
+      <hotspot tilt="5.18" skinid="interaction-badwater" title="" url="" target="_blank" pan="146.49" description="" id="Point03"/>
+      <hotspot tilt="5.34" skinid="interaction-exit" title="" url="" target="_blank" pan="-167.79" description="" id="Point04"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomfov="20" zoomin="0" softedge="0" type="crossdissolve" zoomout="0" enabled="1" zoomoutpause="1"/>
+    <control sensitivity="8" simulatemass="1" contextfullscreen="0" lockedkeyboard="0" lockedmouse="0" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input height="4001" leveltileurl="tiles/12-SaintGeorge/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelingroll="0" levelbiashidpi="0.400" width="4001" levelbias="0.400" levelingpitch="0">
+      <level predecode="0" height="4001" width="4001" preload="0"/>
+      <level predecode="0" height="2000" width="2000" preload="0"/>
+      <level predecode="0" height="1000" width="1000" preload="0"/>
+      <level predecode="1" height="500" width="500" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="31"/>
+      <min tilt="-23.0999" fov="120" pan="-180"/>
+      <max tilt="23.0999" fov="120" pan="180"/>
+    </view>
+    <userdata datetime="2016:09:13 16:24:37" author="" longitude="-113.849163" title="" source="" comment="" copyright="" tags="" description="" info="" latitude="37.018088"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" borderradius="1" height="20" bordercolor="0x000000" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" borderalpha="1" enabled="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1"/>
+      <hotspot tilt="4.55" skinid="interaction-climb" title="" url="" target="_blank" pan="30.2" description="" id="Point01"/>
+      <hotspot tilt="1.31" skinid="interaction-end" title="" url="" target="_blank" pan="-13.36" description="" id="Point02"/>
+      <hotspot tilt="7.04" skinid="interaction-highline" title="" url="" target="_blank" pan="127.79" description="" id="Point03"/>
+      <hotspot tilt="3.15" skinid="interaction-zion" title="" url="" target="_blank" pan="103.17" description="" id="Point04"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomfov="20" zoomin="0" softedge="0" type="crossdissolve" zoomout="0" enabled="1" zoomoutpause="1"/>
+    <control sensitivity="8" simulatemass="1" contextfullscreen="0" lockedkeyboard="0" lockedmouse="0" hideabout="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+</tour>

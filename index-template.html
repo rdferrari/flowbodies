@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Flowbodies</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,200,100,500,600,700" rel="stylesheet">
+</head>
+
+<body class="alt-grid">
+  <ul class="topnav navbar-fixed-top" id="myTopnav">
+    <li><a href="http://flowbodies.com/ix/card-content/content.html">
+      <img src="images/menuData.svg">
+        </a>
+    </li>
+    <li><a href="http://flowbodies.com/ix/card-sphere/spheres.html">
+      <img src="images/menuCard.svg">
+        </a>
+    </li>
+    <li><a href="http://flowbodies.com/ix/">
+      <img src="images/menuHome.svg">
+        </a>
+    </li>
+  </ul>
+
+  <!-- Pano -->
+  		<script type="text/javascript" src="pano2vr_player.js">
+  		</script>
+  		<script type="text/javascript" src="skin.js">
+  		</script>
+  		<script type="text/javascript" src="pano2vrgyro.js">
+  		</script>
+  		<div id="container" style="width:100%;height:100%;">
+  		<br>Loading...<br><br>
+  		This content requires HTML5 with CSS3 3D Transforms or WebGL.
+  		</div>
+  		<script type="text/javascript">
+  		var startNode=document.location.hash.substring(1);
+  		if (("onhashchange" in window) && (!(/MSIE (\d+\.\d+);/.test(navigator.userAgent)))) {
+  			window.onhashchange = function () {
+  				pano.openNext('{' + window.location.hash.substring(1) + '}');
+           	}
+  	    } else {
+          	var lastHash = window.location.hash;
+          	window.setInterval(function () {
+  	           	if (window.location.hash != lastHash) {
+     	        		lastHash = window.location.hash;
+  					pano.openNext('{' + window.location.hash.substring(1) + '}');
+          	   	}
+          	}, 100);
+  		}
+
+      // create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			pano.startNode=startNode;
+		// add the skin object
+		skin=new pano2vrSkin(pano);
+		// load the configuration
+		window.addEventListener("load", function() {
+			pano.readConfigUrlAsync("pano.xml");
+		});
+		</script>
+  		<noscript>
+  			<p><b>Please enable Javascript!</b></p>
+  		</noscript>
+  <!-- panoEnd -->
+  		<!-- Hack needed to hide the url bar on iOS 9, iPhone 5s -->
+  		<div style="width:1px;height:1px;"></div>
+
+</body>
+</html>
